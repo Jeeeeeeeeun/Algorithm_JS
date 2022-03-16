@@ -19,6 +19,7 @@ let combination = (startIdx, selected) => {
         if(total - selectedSum === 100) {
             let answer = input.filter((v) => selected.indexOf(v) === -1).sort((a,b)=> a-b).join('\n');
             console.log(answer);
+            
         }
         return;
     }
